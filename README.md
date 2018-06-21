@@ -15,4 +15,21 @@ Basic Python for Data
 * [Keras](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
 
 
-
+## How to link Sublime Text Build system to Python
+1. Go to Sublime Text : Tools -> Build System -> New Build System 
+2. Past code as below:
+'''JSON
+{
+    "cmd": ["python3", "-i", "-u", "$file"],
+    "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
+'''
+3. Save it with a meaningful name like: **Python3.sublime-build**
+4. Go to Tools -> Build system -> and check Python3 
+5. Past code below and save as python file:
+'''PYTHON
+import sys
+print(sys.version)
+'''
+6. Test if executable press : **Ctrl + b**
