@@ -14,7 +14,7 @@ Basic Python for Data
 * [PySpark](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_Cheat_Sheet_Python.pdf)
 * [Keras](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
 
-
+***
 #### How to Link Sublime Text Build System to Python
 1. Go to **Sublime Text** : *Tools -> Build System -> New Build System* 
 2. Paste code as below:
@@ -34,11 +34,12 @@ print(sys.version)
 ```
 6. Test if executable press : **Ctrl + b**
 
+***
 #### How to Install spcific module for specific Python version
 ```CMD
-python2 -m pip install ModuleName1 ModuleName2
+python2 -m pip install ModuleName1 ModuleName2 ...
 ```
 
 ```CMD
-python3 -m pip install ModuleName1 ModuleName2
+python3 -m pip install ModuleName1 ModuleName2 ...
 ```
