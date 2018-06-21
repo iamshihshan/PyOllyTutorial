@@ -33,3 +33,12 @@ import sys
 print(sys.version)
 ```
 6. Test if executable press : **Ctrl + b**
+
+#### How to Install spcific module for specific Python version
+```CMD
+python2 -m pip install ModuleName1 ModuleName2
+```
+
+```CMD
+python3 -m pip install ModuleName1 ModuleName2
+```
