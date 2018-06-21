@@ -16,8 +16,8 @@ Basic Python for Data
 
 
 #### How to Link Sublime Text Build System to Python
-1. Go to Sublime Text : Tools -> Build System -> New Build System 
-2. Past code as below:
+1. Go to *Sublime Text* : Tools -> Build System -> New Build System 
+2. Paste code as below:
 ```JSON
 {
     "cmd": ["python3", "-i", "-u", "$file"],
@@ -27,7 +27,7 @@ Basic Python for Data
 ```
 3. Save it with a meaningful name like: **Python3.sublime-build**
 4. Go to Tools -> Build system -> and check Python3 
-5. Past code below and save as python file:
+5. Paste code below and save as python file:
 ```PYTHON
 import sys
 print(sys.version)
