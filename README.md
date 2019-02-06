@@ -36,7 +36,7 @@ print(sys.version)
 
 
 ***
-#### How to Setting Personalized "Pause Key" in Sublime
+#### How to Set Personalized "Pause Key" in Sublime
 1. Go to **Sublime Text** : *Preference -> Key Bindings-User* 
 2. Paste code as below:
 ```JSON
