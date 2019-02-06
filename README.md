@@ -34,6 +34,17 @@ print(sys.version)
 ```
 6. Test if executable press : **Ctrl + b**
 
+
+***
+#### How to Setting Personalized "Pause Key" in Sublime
+1. Go to **Sublime Text** : *Preference -> Key Bindings-User* 
+2. Paste code as below:
+```JSON
+{"keys": ["ctrl+shift+c"], "command": "exec", "args": {"kill": true} } 
+```
+3. Save it
+4. Test if executable press : **Ctrl + Shift + c**
+
 ***
 #### How to Install Module for Specific Python Version
 ```CMD
