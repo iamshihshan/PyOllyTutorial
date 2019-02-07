@@ -14,6 +14,44 @@ Basic Python for Data
 * [PySpark](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PySpark_Cheat_Sheet_Python.pdf)
 * [Keras](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Keras_Cheat_Sheet_Python.pdf)
 
+
+
+***
+#### Miniconda Jupyter Notebook Installation
+1. Install [Miniconda](https://conda.io/en/latest/miniconda.html)
+2. Install Jupyter in CMD :
+```CMD
+conda install ipython jupyter
+```
+3.Install modules
+```CMD
+conda install numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
+```
+4. Create Python2 and R Kernel
+```CMD
+conda create -n KernelNamePy python=2 ipykernel
+```
+```CMD
+conda create -n KernelNameR -c r r-essentials 
+```
+5. Activate/Deactivate Kernel
+```CMD
+activate KernelNamePy
+```
+```CMD
+deactivate
+```
+6. Register the kernel:
+```CMD
+python -m ipykernel install --user
+```
+7. Install Module for Specific Kernel
+```CMD
+conda install -n KernelNamePy numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
+```
+8. More you can check [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
+
+
 ***
 #### How to Link Sublime Text Build System to Python
 1. Go to **Sublime Text** : *Tools -> Build System -> New Build System* 
@@ -35,6 +73,7 @@ print(sys.version)
 6. Test if executable press : **Ctrl + b**
 
 
+
 ***
 #### How to Set Personalized "Pause Key" in Sublime
 1. Go to **Sublime Text** : *Preference -> Key Bindings-User* 
@@ -45,6 +84,19 @@ print(sys.version)
 3. Save it
 4. Test if executable press : **Ctrl + Shift + c**
 
+
+
+***
+#### Sublime Hot Key
+1. Select whole line : **Ctrl + l**
+2. Push forward/back : **Ctrl+ [** / **Ctrl + ]**
+3. Edit all keyword : select one of your word  then **Alt + F3**
+4. Edit part of keyword : select one of your word then **Ctrl + d **
+5. Delete one line : **Ctrl + x**
+6. Add one line above/below : **Ctrl + Shift + Enter** / **Ctrl + Enter**
+
+
+
 ***
 #### How to Install Module for Specific Python Version
 ```CMD
@@ -54,3 +106,9 @@ python2 -m pip install ModuleName1 ModuleName2 ...
 ```CMD
 python3 -m pip install ModuleName1 ModuleName2 ...
 ```
+OR
+```CMD
+python3 -m pip --proxy http://XX.X.XX.XX:8080 install ModuleName1 ModuleName2
+```
+
+
