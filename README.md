@@ -23,7 +23,7 @@ Basic Python for Data
 ```CMD
 conda install ipython jupyter
 ```
-3.Install modules
+3. Install Modules
 ```CMD
 conda install numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
 ```
@@ -41,7 +41,7 @@ activate KernelNamePy
 ```CMD
 deactivate
 ```
-6. Register the kernel:
+6. Register the Kernel:
 ```CMD
 python -m ipykernel install --user
 ```
@@ -49,7 +49,7 @@ python -m ipykernel install --user
 ```CMD
 conda install -n KernelNamePy numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
 ```
-8. More you can check [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
+8. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
 
 
 ***
