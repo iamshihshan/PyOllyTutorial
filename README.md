@@ -19,9 +19,9 @@ Basic Python for Data
 ***
 #### Miniconda Jupyter Notebook Installation
 1. Install [Miniconda](https://conda.io/en/latest/miniconda.html)
-2. Install Jupyter in CMD :
+2. Install Jupyter in Anaconda Prompt CMD :
 ```CMD
-conda install ipython jupyter
+pip install jupyter
 ```
 3. Install Modules
 ```CMD
