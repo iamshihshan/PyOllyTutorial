@@ -23,33 +23,25 @@ Basic Python for Data
 ```CMD
 pip install jupyter
 ```
-3. Install Modules
+3. Create Python/R Kernel with essentials package
 ```CMD
-conda install numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
+conda create -n myenv r r-essentials 
 ```
-4. Create Python2 and R Kernel
+4. Activate/Deactivate Kernel
 ```CMD
-conda create -n KernelNamePy python=2 ipykernel
-```
-```CMD
-conda create -n KernelNameR -c r r-essentials 
-```
-5. Activate/Deactivate Kernel
-```CMD
-activate KernelNamePy
+conda activate myenv
 ```
 ```CMD
-deactivate
+conda deactivate
 ```
-6. Register the Kernel:
+5. Install Module/packages within activated kernel
 ```CMD
-python -m ipykernel install --user
+conda install openpyxl sqlalchemy pyodbc pyhive opencv numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
 ```
-7. Install Module for Specific Kernel
 ```CMD
-conda install -n KernelNamePy numpy scipy sympy pandas matplotlib requests lxml patsy scikit-learn xlrd requests BeautifulSoup4 bokeh
+conda install r-irkernel
 ```
-8. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
+6. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
 
 
 ***
