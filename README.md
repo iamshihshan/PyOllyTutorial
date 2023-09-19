@@ -24,11 +24,10 @@ Basic Python for Data
 pip install jupyter
 ```
 3. Create Python/R Kernel with essentials package
-Python only
 '''CMD
 conda create -n myenv python=python3.12
 ```
-or R only
+OR
 ```CMD
 conda create -n myenv r r-essentials 
 ```
