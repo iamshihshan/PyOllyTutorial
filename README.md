@@ -76,6 +76,14 @@ jupyter kernelspec remove <kernel_name>
     "selector": "source.python"
 }
 ```
+(if want to use conda env use below code instead)
+```CMD
+{
+    "cmd": ["C:\\Users\\sschen\\.conda\\envs\\myenv\\python.exe", "-u", "$file"],
+    "file_regex": "^[ ]File \"(...?)\", line ([0-9]*)",
+    "selector": "source.python"
+}
+```
 3. Save it with a meaningful name like: **Python3.sublime-build**
 4. Go to **Sublime Text** : *Tools -> Build system ->* and check Python3
 5. Paste code below and save as python file:
