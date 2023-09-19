@@ -24,11 +24,9 @@ Basic Python for Data
 pip install jupyter
 ```
 3. Create Python/R Kernel with essentials package
-Python only
 ```CMD
 conda create -n myenv python=python3.12
 ```
-OR R only
 ```CMD
 conda create -n myenv r r-essentials 
 ```
@@ -50,12 +48,12 @@ conda install r-irkernel
 6. Install Jupyter Notebook within activated kernel
 ```CMD
 conda install jupyter
-```__
-8. Remove Env
+```
+7. Remove Env
 ```CMD
 conda remove --name myenv --all
 ```
-8. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
+8. More [Conda info]([https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
 
 ***
 #### How to Link Sublime Text Build System to Python
