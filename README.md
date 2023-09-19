@@ -47,7 +47,15 @@ conda install openpyxl sqlalchemy pyodbc pyhive opencv numpy scipy sympy pandas 
 ```CMD
 conda install r-irkernel
 ```
-6. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
+6. Install Jupyter Notebook within activated kernel
+```CMD
+conda install jupyter
+```__
+8. Remove Env
+```CMD
+conda remove --name myenv --all
+```
+8. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
 
 ***
 #### How to Link Sublime Text Build System to Python
