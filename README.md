@@ -24,6 +24,11 @@ Basic Python for Data
 pip install jupyter
 ```
 3. Create Python/R Kernel with essentials package
+Python only
+'''CMD
+conda create -n myenv python=python3.12
+```
+or R only
 ```CMD
 conda create -n myenv r r-essentials 
 ```
@@ -42,7 +47,6 @@ conda install openpyxl sqlalchemy pyodbc pyhive opencv numpy scipy sympy pandas 
 conda install r-irkernel
 ```
 6. More [Conda Chat Sheet](https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2)
-
 
 ***
 #### How to Link Sublime Text Build System to Python
