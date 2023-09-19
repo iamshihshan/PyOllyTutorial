@@ -31,7 +31,6 @@ conda create -n myenv python=python3.12
 conda create -n myenv r r-essentials 
 ```
 4. Activate/Deactivate Kernel
-
 ```CMD
 conda activate myenv
 ```
