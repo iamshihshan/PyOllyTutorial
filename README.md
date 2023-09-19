@@ -52,7 +52,13 @@ conda install jupyter
 ```CMD
 conda remove --name myenv --all
 ```
-8. More [Conda info]([https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
+8. Add Env into Kernal in Jupyter Notbook
+```CMD
+activate myenv
+pip install ipykernel
+python -m ipykernel install --user --name myenv --display-name "Python (whatever you want to call it)"
+```
+10. More [Conda info]([https://hcc-docs.unl.edu/download/attachments/11635088/conda-cheatsheet.pdf?version=1&modificationDate=1435014136000&api=v2](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
 
 ***
 #### How to Link Sublime Text Build System to Python
