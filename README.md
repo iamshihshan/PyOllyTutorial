@@ -63,7 +63,7 @@ python -m ipykernel install --user --name myenv --display-name "Python (whatever
 jupyter kernelspec list
 jupyter kernelspec remove <kernel_name>
 ```
-12. More Info [Conda info](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/) [Conda Chat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
+12. More Info [Conda info](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/) / [Conda Chat Sheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)
 
 ***
 #### How to Link Sublime Text Build System to Python
