@@ -134,7 +134,7 @@ python3 -m pip --proxy http://XX.X.XX.XX:8080 install ModuleName1 ModuleName2
 
 ***
 #### How to Add Virtual Env for Python
-The Env path should be in the same path as your Python locaate at
+The Env path should be at the path you did cmd in defult
 ```CMD
 python -m venv EnvName
 ```
