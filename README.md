@@ -25,7 +25,7 @@ pip install jupyter
 ```
 3. Create Python/R Kernel with essentials package
 ```CMD
-conda create -n myenv python=python3.12
+conda create -n myenv python=3.12
 ```
 ```CMD
 conda create -n myenv r r-essentials 
